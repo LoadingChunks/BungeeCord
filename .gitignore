@@ -1,7 +1,15 @@
 # Eclipse stuff
 .classpath/
-.project/
+.project
 .settings/
+
+api/.classpath
+api/.project
+api/.settings
+
+proxy/.classpath
+proxy/.project
+proxy/.settings
 
 # netbeans
 nbproject/
