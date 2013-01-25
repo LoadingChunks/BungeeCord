@@ -106,6 +106,7 @@ public class BungeeCord extends ProxyServer
         getPluginManager().registerCommand(new CommandBungee());
 
         registerChannel("BungeeCord");
+        registerChannel("RubberBand");
     }
 
     public static BungeeCord getInstance()
