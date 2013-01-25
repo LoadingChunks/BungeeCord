@@ -101,7 +101,7 @@ public class UserConnection extends GenericConnection implements ProxiedPlayer
                 out.write(new Packet9Respawn((byte) -1, (byte) 0, (byte) 0, (short) 256, "DEFAULT").getPacket());
             }
 
-            ServerConnection newServer = ServerConnection.connect(this, target, handshake);
+            ServerConnection newServer = ServerConnection.connect(this, target, handshake, false);
             if (server == null)
             {
                 // Once again, first connection
